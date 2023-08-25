@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#B2D8B2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="En Çok Aranan Çiçekler"
+            android:textSize="19dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/font4">
+        </TextView>
+        <androidx.cardview.widget.CardView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="6dp"
+            app:cardCornerRadius="5dp">
+            <com.denzcoskun.imageslider.ImageSlider
+
+                android:id="@+id/slider"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                app:iss_auto_cycle="true"
+                app:iss_period="2500"
+                app:iss_delay="0"
+                android:textAlignment="center">
+            </com.denzcoskun.imageslider.ImageSlider>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Merak Ettiğiniz çiçek gözlemlerinizi belirtin ve keşfedin"
+            android:textSize="23dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/font4">
+        </TextView>
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bitki Tanıma Uygulamamızla tüm dünyadan 30 farklı çiçek türünü resimlerle tanımla. Renkleri, habitatları ve genel özellikleriyle bu çiçekleri yakından keşfet. Doğanın güzelliklerini görmeye hazır ol!"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/font5">
+        </TextView>
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <LinearLayout
+                android:layout_marginLeft="80dp"
+                android:id="@+id/upload"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/upload">
+                </de.hdodenhof.circleimageview.CircleImageView>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fotoğraf Yükle"
+                    android:gravity="center"
+                    android:fontFamily="@font/font3">
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="80dp"
+                android:id="@+id/takefoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/takephoto">
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fotoğraf Çek"
+                    android:gravity="center"
+                    android:fontFamily="@font/font3">
+
+                </TextView>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/foto">
+
+        </ImageView>
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
