@@ -50,12 +50,12 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # Bu kısmı frontend uygulamanızın adresiyle değiştirin
+    "http://localhost:3000",  
     "http://127.0.0.1:3000",
     "http://10.0.2.16:3000",
     "http://192.168.1.116:3000",
-    "http://192.168.1.116"  # Eğer localhost'ta çalışıyorsanız, bu adresi de ekleyin
-    # Diğer izin verilen adresleri buraya ekleyin
+    "http://192.168.1.116"  
+    
 ]
 
 ROOT_URLCONF = 'bitkitanima.urls'
