@@ -3,4 +3,4 @@
 <p>Sonrasında bu eğitilmiş VGG-16 modelini mobil uygulama ile etkileşimde bulunabilmesi için bir web servisi olarak kullanmayı planladım. Django kullanarak bir web sunucusu oluşturdum. Bu sunucu, mobil uygulamadan gelen çiçek fotoğraflarını alacak ve eğitilmiş modeli kullanarak hangi çiçek türü olduğunu tahmin edecek. Sonrasında bulduğu cevabı mobil uygulamaya geri döndürecek.</p>
 
 <h1>Uygulama Videosu</h1>
-https://github.com/user-attachments/assets/f6596b49-3055-43e1-b352-8e0d0ecf7339
+https://github.com/user-attachments/assets/f6596b49-3055-43e1-b352-8e0d0ecf7339](https://github-production-user-asset-6210df.s3.amazonaws.com/100643237/356580975-f6596b49-3055-43e1-b352-8e0d0ecf7339.MP4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240809%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240809T115023Z&X-Amz-Expires=300&X-Amz-Signature=07b30da7b8043ed9e2bae26700a82a11d62ec32c77043233430d27e56b8859d6&X-Amz-SignedHeaders=host&actor_id=100643237&key_id=0&repo_id=683059439
